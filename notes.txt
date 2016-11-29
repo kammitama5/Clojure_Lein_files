@@ -1,0 +1,19 @@
+recur -> self call
+
+reducers 
+superseded by transducers
+
+recursion via recur does not consume stack
+
+(loop [i 1
+		j 20]
+	(recur (+ j 15)
+	(+ i 10)))
+
+	would eval loop infinitely
+
+
+ vectors => arrays 
+ ordered/ indexed by position
+vectors grow at the tail
+
