@@ -120,6 +120,7 @@
 ;; try to put docstrings on all your functions
 
 ;; named arguments
+
 ;; transient => transient collections
 
 ;; in Cloujure -> ! => mutating
